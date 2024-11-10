@@ -1,0 +1,34 @@
+ body {
+    background-color: black;
+    color: white; 
+}
+
+h1 {
+    font-size: 20px;
+    padding: 30px;
+}
+
+p {
+    font-size: 12px;
+    color: lightgray;
+  }
+
+    .styled-div {
+        border: 2px dotted white;
+        width: 100px;
+        height: 100px;
+    }
+
+    ol {
+        list-style-type: upper-alpha;
+    }
+
+    ul {
+        list-style-type: square;
+    }
+    .links{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+
+    }

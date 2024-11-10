@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#header {
+    background-color: #4CAF50; /* Vihreä tausta */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+#nav {
+    background-color: #333; 
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#nav ul li a:hover {
+    color: red;
+}
+
+#content-container {
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+
+#vertical-nav {
+    float: left;
+    width: 200px; 
+    background-color: #333; 
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#vertical-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#vertical-nav ul li {
+    margin-bottom: 10px;
+}
+
+#vertical-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#vertical-nav ul li a:hover {
+    color: red
+}
+
+
+#section {
+    background-color: #fff;
+    padding: 20px;
+    flex: 1; 
+    box-sizing: border-box;
+}
+
+#section h2 {
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+    #content-container {
+        flex-direction: column; 
+    }
+
+    #vertical-nav {
+        float: none; 
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

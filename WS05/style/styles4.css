@@ -1,23 +1,27 @@
 body {
-    background-color: #18346b; 
+    background-color:rgb(215, 224, 212) ; 
     font-family: arial, sans-serif;
-}
+  }
 
-h1 {
+ h1 {
     border: 2 px solid;
-    padding: 10px;
+    padding: 30px;
 }
 
 p {
-    background-color: rgba(red, rgb(255, 255, 255), blue, alpha);
-    border: 2px solid white;
+    background-color: red;
     border-radius: 5px;
     padding: 15px;
     margin: 20px 0;
   }
-
-  .links {
+  .ramadan-image{
+    margin: 0;
+  }
+  .links{
     position: absolute;
     top: 10px;
     left: 10px;
-  }
+}
+  
+
+  
