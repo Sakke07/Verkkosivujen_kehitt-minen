@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: rgb(82, 222, 18);
+}
+.row{
+    margin-bottom: 30px;
+}
+.colp-3bg-primarytext-white{
+    color: red;
+}
+p{
+    text-align: center;
+}
