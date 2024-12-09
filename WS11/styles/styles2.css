@@ -100,5 +100,6 @@ body {
   /* Task 2: Adjust Main element Font Size for Large Screens */
   @media (min-width: 1200px) {
     main {
-        font-size: 84px;
+      font-size: 84px;
+    }
   }
