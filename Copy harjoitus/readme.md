@@ -1,1 +1,0 @@
-Harjoitellaan copy and paste
